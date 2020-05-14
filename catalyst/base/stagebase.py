@@ -56,7 +56,6 @@ class StageBase(TargetBase, ClearBase, GenBase):
             "hostuse",
             "kerncache_path",
             "ldflags",
-            "makeopts",
             "pkgcache_path",
             "portage_confdir",
             "portage_overlay",

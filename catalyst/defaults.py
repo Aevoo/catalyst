@@ -61,6 +61,7 @@ confdefaults = {
     "local_overlay": "/var/db/repos/local",
     "port_conf": "/etc/portage",
     "make_conf": "%(port_conf)s/make.conf",
+    "makeopts": "",
     "options": set(),
     "pkgdir": "/var/cache/binpkgs",
     "port_tmpdir": "/var/tmp/portage",

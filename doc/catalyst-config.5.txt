@@ -48,9 +48,9 @@ $ python3 -c 'import hashlib; print(hashlib.algorithms_available)'
 
 *envscript*::
 Environment script location, which allows users to set options such as
-HTTP proxies, `MAKEOPTS`, `GENTOO_MIRRORS`, or any other environment
-variables needed for building.  The envscript file sets environment
-variables using POSIX shell notation:
+HTTP proxies, `GENTOO_MIRRORS`, or any other environment variables
+needed for building.  The envscript file sets environment variables
+using POSIX shell notation:
 +
 ---------------------------------
 export FOO="bar"
